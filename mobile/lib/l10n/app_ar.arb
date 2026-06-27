@@ -1,0 +1,68 @@
+{
+  "@@locale": "ar",
+
+  "appName": "روشتة AI",
+  "appTagline": "مساعد الصيدلية الذكي",
+
+  "navHome": "الرئيسية",
+  "navSearch": "البحث",
+  "navPrescriptions": "وصفاتي",
+  "navChat": "المساعد",
+  "navMore": "المزيد",
+  "navInventory": "المخزون",
+  "navAlerts": "التنبيهات",
+  "navQueue": "المراجعة",
+  "navReports": "التقارير",
+  "navUsers": "المستخدمون",
+
+  "actionLogin": "تسجيل الدخول",
+  "actionRegister": "إنشاء حساب",
+  "actionLogout": "تسجيل الخروج",
+  "actionSave": "حفظ",
+  "actionCancel": "إلغاء",
+  "actionRetry": "إعادة المحاولة",
+  "actionContinue": "متابعة",
+  "actionUpload": "رفع",
+  "actionTakePhoto": "تصوير",
+  "actionChooseFromGallery": "اختيار من المعرض",
+  "actionSend": "إرسال",
+  "actionApprove": "اعتماد",
+  "actionReject": "رفض",
+  "actionResolve": "تعليم كمحلول",
+  "actionViewAll": "عرض الكل",
+
+  "fieldEmail": "البريد الإلكتروني",
+  "fieldPassword": "كلمة المرور",
+  "fieldFullName": "الاسم الكامل",
+  "fieldPhone": "رقم الهاتف",
+  "fieldConfirmPassword": "تأكيد كلمة المرور",
+
+  "errorGeneric": "حدث خطأ غير متوقع، يرجى المحاولة لاحقًا",
+  "errorNoInternet": "لا يوجد اتصال بالإنترنت",
+  "errorInvalidCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+  "errorRequiredField": "هذا الحقل مطلوب",
+  "errorInvalidEmail": "بريد إلكتروني غير صالح",
+  "errorPasswordTooShort": "كلمة المرور يجب أن تكون 8 أحرف على الأقل",
+
+  "roleAdmin": "مدير النظام",
+  "rolePharmacist": "صيدلاني",
+  "roleCustomer": "زبون",
+
+  "prescriptionStatusPending": "قيد المعالجة",
+  "prescriptionStatusAnalyzed": "بانتظار مراجعة الصيدلاني",
+  "prescriptionStatusReviewed": "تمت المراجعة",
+  "prescriptionStatusDispensed": "تم الصرف",
+  "prescriptionStatusRejected": "مرفوضة",
+
+  "safetyDisclaimerTitle": "أداة مساعدة، وليست بديلاً عن الطبيب أو الصيدلاني",
+  "safetyDisclaimerBody": "لا يقدّم روشتة AI تشخيصًا طبيًا نهائيًا، ولا يحدد أو يغيّر أي جرعة علاجية. في أي حالة غامضة أو خطيرة، يرجى التواصل فورًا مع الصيدلاني أو الطبيب أو الطوارئ.",
+
+  "emptyNoData": "لا توجد بيانات لعرضها حاليًا",
+  "emptySearchPrompt": "ابدأ بكتابة اسم الدواء للبحث",
+
+  "settingsLanguage": "اللغة",
+  "settingsTheme": "المظهر",
+  "settingsThemeLight": "فاتح",
+  "settingsThemeDark": "غامق",
+  "settingsThemeSystem": "تلقائي حسب النظام"
+}

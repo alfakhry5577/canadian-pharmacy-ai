@@ -1,0 +1,68 @@
+{
+  "@@locale": "en",
+
+  "appName": "Roshetta AI",
+  "appTagline": "Smart Pharmacy Assistant",
+
+  "navHome": "Home",
+  "navSearch": "Search",
+  "navPrescriptions": "Prescriptions",
+  "navChat": "Assistant",
+  "navMore": "More",
+  "navInventory": "Inventory",
+  "navAlerts": "Alerts",
+  "navQueue": "Review Queue",
+  "navReports": "Reports",
+  "navUsers": "Users",
+
+  "actionLogin": "Log In",
+  "actionRegister": "Create Account",
+  "actionLogout": "Log Out",
+  "actionSave": "Save",
+  "actionCancel": "Cancel",
+  "actionRetry": "Retry",
+  "actionContinue": "Continue",
+  "actionUpload": "Upload",
+  "actionTakePhoto": "Take Photo",
+  "actionChooseFromGallery": "Choose From Gallery",
+  "actionSend": "Send",
+  "actionApprove": "Approve",
+  "actionReject": "Reject",
+  "actionResolve": "Mark Resolved",
+  "actionViewAll": "View All",
+
+  "fieldEmail": "Email",
+  "fieldPassword": "Password",
+  "fieldFullName": "Full Name",
+  "fieldPhone": "Phone Number",
+  "fieldConfirmPassword": "Confirm Password",
+
+  "errorGeneric": "Something went wrong. Please try again.",
+  "errorNoInternet": "No internet connection",
+  "errorInvalidCredentials": "Invalid email or password",
+  "errorRequiredField": "This field is required",
+  "errorInvalidEmail": "Invalid email address",
+  "errorPasswordTooShort": "Password must be at least 8 characters",
+
+  "roleAdmin": "Admin",
+  "rolePharmacist": "Pharmacist",
+  "roleCustomer": "Customer",
+
+  "prescriptionStatusPending": "Processing",
+  "prescriptionStatusAnalyzed": "Awaiting Pharmacist Review",
+  "prescriptionStatusReviewed": "Reviewed",
+  "prescriptionStatusDispensed": "Dispensed",
+  "prescriptionStatusRejected": "Rejected",
+
+  "safetyDisclaimerTitle": "A helper tool — not a replacement for your doctor or pharmacist",
+  "safetyDisclaimerBody": "Roshetta AI does not provide a final medical diagnosis and never sets or changes a treatment dose. In any unclear or serious situation, please contact your pharmacist, doctor, or emergency services immediately.",
+
+  "emptyNoData": "No data to show yet",
+  "emptySearchPrompt": "Start typing a medicine name to search",
+
+  "settingsLanguage": "Language",
+  "settingsTheme": "Theme",
+  "settingsThemeLight": "Light",
+  "settingsThemeDark": "Dark",
+  "settingsThemeSystem": "System Default"
+}

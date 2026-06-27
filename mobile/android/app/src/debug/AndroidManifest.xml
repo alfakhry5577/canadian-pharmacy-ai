@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+      Debug builds only: allows plain HTTP to 10.0.2.2 (the emulator's alias
+      for your host machine's localhost), so `flutter run` against a local
+      `uvicorn` backend works without setting up TLS. Release builds keep
+      usesCleartextTraffic="false" from the main manifest — always serve the
+      production API over HTTPS.
+    -->
+    <application android:usesCleartextTraffic="true" />
+</manifest>

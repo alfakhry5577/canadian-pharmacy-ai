@@ -1,0 +1,82 @@
+name: roshetta_ai
+description: روشتة AI — مساعد الصيدلية الذكي (Flutter mobile app for customers, pharmacists, and admins)
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Networking
+  dio: ^5.4.3+1
+  connectivity_plus: ^6.0.3
+
+  # Navigation
+  go_router: ^14.2.0
+
+  # Firebase / push notifications
+  firebase_core: ^2.31.0
+  firebase_messaging: ^14.9.3
+  flutter_local_notifications: ^17.2.1+2
+
+  # Secure storage / local cache
+  flutter_secure_storage: ^9.2.2
+  shared_preferences: ^2.2.3
+
+  # UI
+  google_fonts: ^6.2.1
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.1
+  image_picker: ^1.1.2
+  fl_chart: ^0.68.0
+  flutter_svg: ^2.0.10+1
+
+  # Utilities
+  intl: any # version is driven by flutter_localizations (SDK) — do not pin narrowly, see FINAL_BUILD_READINESS_REPORT.md
+  equatable: ^2.0.5
+  logger: ^2.3.0
+  package_info_plus: ^8.0.0
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.1
+
+flutter:
+  uses-material-design: true
+  generate: true # enables gen-l10n from lib/l10n/*.arb (see l10n.yaml)
+
+  assets:
+    - assets/images/
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/app_icon.png"
+  adaptive_icon_background: "#0B5C45"
+  adaptive_icon_foreground: "assets/images/app_icon_foreground.png"
+
+flutter_native_splash:
+  color: "#EAF4EE"
+  image: assets/images/splash_logo.png
+  color_dark: "#0F1715"
+  image_dark: assets/images/splash_logo.png
+  android_12:
+    image: assets/images/splash_logo.png
+    icon_background_color: "#EAF4EE"
+    color: "#EAF4EE"
+    image_dark: assets/images/splash_logo.png
+    icon_background_color_dark: "#0F1715"
+    color_dark: "#0F1715"

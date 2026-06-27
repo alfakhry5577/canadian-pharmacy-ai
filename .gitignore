@@ -1,0 +1,21 @@
+# Backend
+backend/.env
+backend/roshetta.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.pytest_cache/
+backend/venv/
+backend/.venv/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+
+# OS / editor
+.DS_Store
+*.log
+.idea/
+.vscode/

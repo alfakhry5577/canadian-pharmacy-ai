@@ -1,0 +1,37 @@
+import { create } from "zustand";
+import { persist } from "zustand/middleware";
+import type { User } from "@/types";
+
+interface AuthState {
+  token: string | null;
+  user: User | null;
+  isHydrated: boolean;
+  setAuth: (token: string, user: User) => void;
+  setUser: (user: User) => void;
+  clearAuth: () => void;
+  setHydrated: () => void;
+}
+
+export const useAuthStore = create<AuthState>()(
+  persist(
+    (set) => ({
+      token: null,
+      user: null,
+      isHydrated: false,
+      setAuth: (token, user) => set({ token, user }),
+      setUser: (user) => set({ user }),
+      clearAuth: () => set({ token: null, user: null }),
+      setHydrated: () => set({ isHydrated: true }),
+    }),
+    {
+      name: "roshetta-auth-storage",
+      onRehydrateStorage: () => (state) => {
+        state?.setHydrated();
+      },
+    }
+  )
+);
+
+export function isRole(user: User | null, ...roles: User["role"][]): boolean {
+  return !!user && roles.includes(user.role);
+}

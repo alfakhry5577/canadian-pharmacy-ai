@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Fallback splash background. Run `dart run flutter_native_splash:create`
+  (see pubspec.yaml's flutter_native_splash config) to generate the real,
+  branded splash screens for every density — that command overwrites this
+  file and adds the dark-mode / Android 12+ variants automatically.
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/splash_background" />
+</layer-list>

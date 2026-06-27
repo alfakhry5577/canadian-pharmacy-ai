@@ -1,0 +1,7 @@
+# Copy this file to android/local.properties (gitignored, machine-specific).
+# Flutter normally writes this automatically on first `flutter run`/`flutter build`.
+
+sdk.dir=/path/to/Android/sdk
+flutter.sdk=/path/to/flutter
+flutter.versionName=1.0.0
+flutter.versionCode=1
