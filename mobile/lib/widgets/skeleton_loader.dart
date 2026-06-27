@@ -9,10 +9,10 @@ class SkeletonBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final baseColor = Theme.of(context).colorScheme.surfaceVariant;
+    final baseColor = Theme.of(context).colorScheme.surfaceContainerHighest;
     return Shimmer.fromColors(
       baseColor: baseColor,
-      highlightColor: baseColor.withOpacity(0.5),
+      highlightColor: baseColor.withValues(alpha: 0.5),
       child: Container(
         height: height,
         width: width,

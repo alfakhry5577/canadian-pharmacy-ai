@@ -45,7 +45,7 @@ class _InventoryTile extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     return Card(
-      color: item.isLowStock ? theme.colorScheme.error.withOpacity(0.05) : null,
+      color: item.isLowStock ? theme.colorScheme.error.withValues(alpha: 0.05) : null,
       child: ListTile(
         title: Text('دواء #${item.medicationId}'),
         subtitle: Text('الكمية: ${item.quantity} · تشغيلة ${item.batchNo ?? "—"} · ينتهي ${Formatters.dateOnly(item.expiryDate)}'),

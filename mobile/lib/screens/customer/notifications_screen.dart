@@ -49,7 +49,7 @@ class _NotificationTile extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final theme = Theme.of(context);
     return Card(
-      color: notification.isRead ? null : theme.colorScheme.primary.withOpacity(0.05),
+      color: notification.isRead ? null : theme.colorScheme.primary.withValues(alpha: 0.05),
       child: ListTile(
         leading: Icon(
           notification.isRead ? Icons.mail_outline_rounded : Icons.markunread_rounded,

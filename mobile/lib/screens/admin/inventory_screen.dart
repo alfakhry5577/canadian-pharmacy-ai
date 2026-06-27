@@ -28,7 +28,7 @@ class AdminInventoryScreen extends ConsumerWidget {
             itemBuilder: (context, i) {
               final item = items[i];
               return Card(
-                color: item.isLowStock ? Theme.of(context).colorScheme.error.withOpacity(0.05) : null,
+                color: item.isLowStock ? Theme.of(context).colorScheme.error.withValues(alpha: 0.05) : null,
                 child: ListTile(
                   title: Text('دواء #${item.medicationId}'),
                   subtitle: Text('الكمية: ${item.quantity} · ينتهي ${Formatters.dateOnly(item.expiryDate)}'),

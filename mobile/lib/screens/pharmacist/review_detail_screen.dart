@@ -141,7 +141,7 @@ class _ReviewDetailScreenState extends ConsumerState<ReviewDetailScreen> {
                     Container(
                       width: double.infinity,
                       padding: const EdgeInsets.all(12),
-                      decoration: BoxDecoration(color: theme.colorScheme.surfaceVariant, borderRadius: BorderRadius.circular(10)),
+                      decoration: BoxDecoration(color: theme.colorScheme.surfaceContainerHighest, borderRadius: BorderRadius.circular(10)),
                       child: Text(prescription.rawOcrText!),
                     ),
                   ],

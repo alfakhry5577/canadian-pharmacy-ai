@@ -49,7 +49,7 @@ class AlertsScreen extends ConsumerWidget {
                   background: Container(
                     alignment: AlignmentDirectional.centerEnd,
                     padding: const EdgeInsets.symmetric(horizontal: 20),
-                    decoration: BoxDecoration(color: Colors.green.withOpacity(0.15), borderRadius: BorderRadius.circular(14)),
+                    decoration: BoxDecoration(color: Colors.green.withValues(alpha: 0.15), borderRadius: BorderRadius.circular(14)),
                     child: const Icon(Icons.check_rounded, color: Colors.green),
                   ),
                   onDismissed: (_) => ref.read(alertRepositoryProvider).resolve(alert.id),

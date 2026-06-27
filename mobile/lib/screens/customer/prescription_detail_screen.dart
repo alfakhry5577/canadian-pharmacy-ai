@@ -49,7 +49,7 @@ class PrescriptionDetailScreen extends ConsumerWidget {
                     placeholder: (context, _) => const SkeletonBox(height: 220),
                     errorWidget: (context, _, __) => Container(
                       height: 220,
-                      color: theme.colorScheme.surfaceVariant,
+                      color: theme.colorScheme.surfaceContainerHighest,
                       child: const Icon(Icons.broken_image_outlined),
                     ),
                     fit: BoxFit.contain,

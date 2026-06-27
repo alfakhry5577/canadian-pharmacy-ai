@@ -74,7 +74,7 @@ class _PrescriptionTile extends StatelessWidget {
             children: [
               Container(
                 padding: const EdgeInsets.all(10),
-                decoration: BoxDecoration(color: theme.colorScheme.primary.withOpacity(0.1), borderRadius: BorderRadius.circular(12)),
+                decoration: BoxDecoration(color: theme.colorScheme.primary.withValues(alpha: 0.1), borderRadius: BorderRadius.circular(12)),
                 child: Icon(Icons.description_outlined, color: theme.colorScheme.primary),
               ),
               const SizedBox(width: 12),

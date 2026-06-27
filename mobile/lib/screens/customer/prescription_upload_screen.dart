@@ -76,7 +76,7 @@ class _UploadView extends StatelessWidget {
               else
                 Container(
                   padding: const EdgeInsets.all(18),
-                  decoration: BoxDecoration(color: theme.colorScheme.primary.withOpacity(0.1), shape: BoxShape.circle),
+                  decoration: BoxDecoration(color: theme.colorScheme.primary.withValues(alpha: 0.1), shape: BoxShape.circle),
                   child: Icon(Icons.document_scanner_outlined, size: 36, color: theme.colorScheme.primary),
                 ),
               const SizedBox(height: 16),
@@ -149,7 +149,7 @@ class _ProgressSteps extends StatelessWidget {
               Container(
                 width: 40,
                 height: 40,
-                decoration: BoxDecoration(color: color.withOpacity(isCurrent || isDone ? 1 : 0.15), shape: BoxShape.circle),
+                decoration: BoxDecoration(color: color.withValues(alpha: isCurrent || isDone ? 1 : 0.15), shape: BoxShape.circle),
                 child: isCurrent
                     ? const Padding(padding: EdgeInsets.all(10), child: CircularProgressIndicator(strokeWidth: 2.2, color: Colors.white))
                     : Icon(isDone ? Icons.check_rounded : icon, color: isDone ? Colors.white : color, size: 18),

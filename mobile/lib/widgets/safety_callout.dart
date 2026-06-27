@@ -19,7 +19,7 @@ class SafetyCallout extends StatelessWidget {
 
     return Container(
       padding: const EdgeInsets.all(14),
-      decoration: BoxDecoration(color: bg, borderRadius: BorderRadius.circular(14), border: Border.all(color: fg.withOpacity(0.25))),
+      decoration: BoxDecoration(color: bg, borderRadius: BorderRadius.circular(14), border: Border.all(color: fg.withValues(alpha: 0.25))),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
